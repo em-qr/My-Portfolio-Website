@@ -1,0 +1,176 @@
+body {
+    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #2e2058;
+    height: 800px;
+    margin: 0 50px;
+  }
+/*****grid*****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width .first-block .second-block .third-block {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+
+
+/*****HEADER*****/
+header {
+  height: 800px;
+  background: url('../img/image-background.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0 50px;
+  }
+
+header h1 {
+  color: #775dc5;
+  text-align: center;
+  clear: both;
+  width: 1000px;
+  font-size: 55px;
+  line-height: 80px;
+  font-weight: bold;
+  padding: 200px 0 30px 150px;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  }
+
+header p {
+  text-align: center;
+  clear: both;
+  width: 1000px;
+  font-family:'Lora', serif;
+  font-size: 44px;
+  margin: 22px;
+  padding: 0px 0 65px 100px;
+  font-family:'Roboto', sans-serif;
+  color: #2e2058;
+}
+
+/*****WORK*****/
+#work a {
+  color: #2e2058;
+}
+
+#work .half-width {
+  width: 600px;
+  float: left;
+  color:#2e2058;
+}
+
+#work .full-width {
+  padding: 25px 0;
+  background: #FFFFFF;
+  text-align: center;
+}
+
+#work img {
+  padding-bottom: 30px;
+  border: 1px solid #b7b7b7;
+}
+
+#work h4 {
+  font-family: 'lora' , sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+}
+
+ #work h3 {
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+   font-family: 'Roboto Slab', serif;
+ }
+
+#work p {
+  font-size: 20px;
+  font-family:'Roboto', sans-serif;
+}
+/*****Jubilee*****/
+
+/*****RECIPE*****/
+
+/*****VISION******/
+
+/***** ABOUT*****/
+#about .full-width {
+  padding: 25px 0;
+  background: #775dc5;
+  color:#FFFFFF;
+}
+
+#about p {
+  font-size: 20px;
+  font-family:'Roboto', sans-serif;
+}
+
+#about h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+#about .half-width {
+  width: 600px;
+  float: left;
+}
+
+#about h4 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+
+#about img {
+  padding-left: 30px;
+}
+/*****CONTACT/FOOTER*****/
+
+#contact .full-width {
+    padding: 0px 0;
+    background: #2e2058;;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+footer p {
+  font-size: 20px;
+  font-family:'Roboto', sans-serif;
+  text-align: center;
+}
+
+footer h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+footer img{
+  padding-left:175px;
+}
+
+footer h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+#contact a {
+  color: #ffffff;
+}
